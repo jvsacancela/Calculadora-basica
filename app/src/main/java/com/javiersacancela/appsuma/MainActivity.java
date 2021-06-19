@@ -29,9 +29,9 @@ public class MainActivity extends AppCompatActivity {
         public void btnSuma(View view){
             String valor1 = num1.getText().toString();
             String valor2 = num2.getText().toString();
-            int n1 = Integer.parseInt(valor1);
-            int n2 = Integer.parseInt(valor2);
-            int add = n1 + n2;
+            double n1 = Double.parseDouble(valor1);
+            double n2 = Double.parseDouble(valor2);
+            double add = n1 + n2;
             String res = String.valueOf(add);
             result.setText(res);
         }
@@ -39,9 +39,9 @@ public class MainActivity extends AppCompatActivity {
         public void btnResta(View view){
             String valor1 = num1.getText().toString();
             String valor2 = num2.getText().toString();
-            int n1 = Integer.parseInt(valor1);
-            int n2 = Integer.parseInt(valor2);
-            int add = n1 - n2;
+            double n1 = Double.parseDouble(valor1);
+            double n2 = Double.parseDouble(valor2);
+            double add = n1 - n2;
             String res = String.valueOf(add);
             result.setText(res);
         }
@@ -49,9 +49,9 @@ public class MainActivity extends AppCompatActivity {
         public void btnMultiplicar(View view){
             String valor1 = num1.getText().toString();
             String valor2 = num2.getText().toString();
-            int n1 = Integer.parseInt(valor1);
-            int n2 = Integer.parseInt(valor2);
-            int add = n1 * n2;
+            double n1 = Double.parseDouble(valor1);
+            double n2 = Double.parseDouble(valor2);
+            double add = n1 * n2;
             String res = String.valueOf(add);
             result.setText(res);
         }
@@ -59,9 +59,9 @@ public class MainActivity extends AppCompatActivity {
         public void btnDividir(View view){
             String valor1 = num1.getText().toString();
             String valor2 = num2.getText().toString();
-            int n1 = Integer.parseInt(valor1);
-            int n2 = Integer.parseInt(valor2);
-            int add = n1 / n2;
+            double n1 = Double.parseDouble(valor1);
+            double n2 = Double.parseDouble(valor2);
+            double add = n1 / n2;
             String res = String.valueOf(add);
             result.setText(res);
     }
