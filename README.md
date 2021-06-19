@@ -1,2 +1,3 @@
 # Calculadora Basica
-Suma dos numeros enteros, aplicacion que funciona para dispositivos moviles android.
+-> Suma, Resta, Multiplica y Divide dos numeros.
+-> Aplicacion para dispositivos moviles Android.
